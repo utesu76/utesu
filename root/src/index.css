@@ -1,0 +1,14 @@
+@import "https://fonts.cdnfonts.com/css/sofia-pro";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Sofia Pro'
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
